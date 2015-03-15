@@ -1,33 +1,19 @@
-# GoogleAnalytics
+# Google Analytics
 
 [![Build Status](https://travis-ci.org/liwei78/google_analytizer_demo.svg)](https://travis-ci.org/liwei78/google_analytizer_demo) [![Code Climate](https://codeclimate.com/github/liwei78/google_analytizer_demo/badges/gpa.svg)](https://codeclimate.com/github/liwei78/google_analytizer_demo) [![Test Coverage](https://codeclimate.com/github/liwei78/google_analytizer_demo/badges/coverage.svg)](https://codeclimate.com/github/liwei78/google_analytizer_demo)
 
 It's a demo to wrap API for app, NOT THE REALWORLD GOOGLE API USEAGE.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'google_analytics'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install google_analytics
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+client = GoogleAnalytics::Client.new
+client.keywords(@options)
+client.backlinks(@options)
+```
 
-## Contributing
+## Caution
 
-1. Fork it ( https://github.com/[my-github-username]/google_analytics/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+IT'S A DEMO WITH fadaray + faraday_middleware, not realword google analytics api.
+

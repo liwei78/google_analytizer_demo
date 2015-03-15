@@ -1,6 +1,8 @@
 # GoogleAnalytics
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/liwei78/google_analytizer_demo.svg)](https://travis-ci.org/liwei78/google_analytizer_demo)
+
+It's a demo to wrap API for app, NOT THE REALWORLD GOOGLE API USEAGE.
 
 ## Installation
 
